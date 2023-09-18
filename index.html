@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
+  <script src="https://kit.fontawesome.com/a7d5da2625.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Ping coming soon page</title>
 
@@ -15,20 +20,37 @@
   </style>
 </head>
 <body>
+<main>
+  <section class="main-container">
+  <img class="logo" src="images/logo.svg" alt="ping logo">
+  <h1>We are launching <span>soon<span class="span-ception">!</span></span></h1>
 
-  We are launching soon!
+  <p>Subscribe and get notified</p>
 
-  Subscribe and get notified
+  <section class="btn-container">
+    <form action="#">
+    <input type="email" placeholder="Your email address...">
+    <button type="submit">Notify Me</button>
+    </form>
+  </section>
 
-  Notify Me
+  <img class="dashboard-img" src="images/illustration-dashboard.png" alt="website dashboard illustration">
+  </section>
 
-  &copy; Copyright Ping. All rights reserved.
+  <section class="social-container">
+    <div class="social-logo"><i class="fa-brands fa-facebook-f"></i></div>
+    <div class="social-logo"><i class="fa-brands fa-twitter"></i></div>
+    <div class="social-logo"><i class="fa-brands fa-instagram"></i></div>
+  </section>
+  <span class="footer">&copy; Copyright Ping. All rights reserved.</span>
 
+</main>
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Megan May</a>.
     </p>
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
